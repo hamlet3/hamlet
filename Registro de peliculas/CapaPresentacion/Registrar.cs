@@ -215,6 +215,7 @@ namespace CapaPresentacion
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             pelicula.Buscar(int.Parse(txtPeliculaId.Text));
+           
         }
 
         private void lbxGenero_SelectedIndexChanged(object sender, EventArgs e)
